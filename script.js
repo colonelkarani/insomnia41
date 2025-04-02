@@ -8,7 +8,7 @@ async function sendMessage() {
     }
     
     try {
-       const response = await fetch("https://insomnia2-f3ds.onrender.com", { // Use your backend proxy
+       const response = await fetch("https://render.com/docs/web-services#port-binding", { // Use your backend proxy
         method: "POST",
         headers: { "Content-Type": "application/json" },y: JSON.stringify({
 "model": "deepseek/deepseek-chat-v3-0324:free",
